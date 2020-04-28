@@ -38,7 +38,6 @@
 		D47256162454A25600DAD769 /* Savings_Account.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Savings_Account.cpp; sourceTree = "<group>"; };
 		D47256182454A25600DAD769 /* Savings_Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Savings_Account.h; sourceTree = "<group>"; };
 		D47256192454A25600DAD769 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		D472561A2454A25600DAD769 /* Description.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Description.txt; sourceTree = "<group>"; };
 		D472561D2454A30900DAD769 /* Checking_Account.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Checking_Account.cpp; sourceTree = "<group>"; };
 		D472561E2454A30900DAD769 /* Checking_Account.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Checking_Account.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +76,6 @@
 				D47256122454A23E00DAD769 /* Account_Util.h */,
 				D472560F2454A23E00DAD769 /* Account.cpp */,
 				D47256102454A23E00DAD769 /* Account.h */,
-				D472561A2454A25600DAD769 /* Description.txt */,
 				D47256192454A25600DAD769 /* main.cpp */,
 				D47256162454A25600DAD769 /* Savings_Account.cpp */,
 				D47256182454A25600DAD769 /* Savings_Account.h */,
