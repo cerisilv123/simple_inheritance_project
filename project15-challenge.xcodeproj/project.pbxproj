@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D47256092454A21000DAD769 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D47256082454A21000DAD769 /* main.cpp */; };
+		D466D7402456FBB1005AC3E5 /* Trust_Account.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D466D73E2456FBB1005AC3E5 /* Trust_Account.cpp */; };
+		D47256132454A23E00DAD769 /* Account.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D472560F2454A23E00DAD769 /* Account.cpp */; };
+		D47256142454A23E00DAD769 /* Account_Util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D47256112454A23E00DAD769 /* Account_Util.cpp */; };
+		D472561B2454A25600DAD769 /* Savings_Account.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D47256162454A25600DAD769 /* Savings_Account.cpp */; };
+		D472561C2454A25600DAD769 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D47256192454A25600DAD769 /* main.cpp */; };
+		D472561F2454A30900DAD769 /* Checking_Account.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D472561D2454A30900DAD769 /* Checking_Account.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +28,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D466D73E2456FBB1005AC3E5 /* Trust_Account.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Trust_Account.cpp; sourceTree = "<group>"; };
+		D466D73F2456FBB1005AC3E5 /* Trust_Account.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Trust_Account.h; sourceTree = "<group>"; };
 		D47256052454A21000DAD769 /* project15-challenge */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "project15-challenge"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D47256082454A21000DAD769 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D472560F2454A23E00DAD769 /* Account.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Account.cpp; sourceTree = "<group>"; };
+		D47256102454A23E00DAD769 /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
+		D47256112454A23E00DAD769 /* Account_Util.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Account_Util.cpp; sourceTree = "<group>"; };
+		D47256122454A23E00DAD769 /* Account_Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account_Util.h; sourceTree = "<group>"; };
+		D47256162454A25600DAD769 /* Savings_Account.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Savings_Account.cpp; sourceTree = "<group>"; };
+		D47256182454A25600DAD769 /* Savings_Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Savings_Account.h; sourceTree = "<group>"; };
+		D47256192454A25600DAD769 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D472561A2454A25600DAD769 /* Description.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Description.txt; sourceTree = "<group>"; };
+		D472561D2454A30900DAD769 /* Checking_Account.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Checking_Account.cpp; sourceTree = "<group>"; };
+		D472561E2454A30900DAD769 /* Checking_Account.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Checking_Account.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +73,18 @@
 		D47256072454A21000DAD769 /* project15-challenge */ = {
 			isa = PBXGroup;
 			children = (
-				D47256082454A21000DAD769 /* main.cpp */,
+				D47256112454A23E00DAD769 /* Account_Util.cpp */,
+				D47256122454A23E00DAD769 /* Account_Util.h */,
+				D472560F2454A23E00DAD769 /* Account.cpp */,
+				D47256102454A23E00DAD769 /* Account.h */,
+				D472561A2454A25600DAD769 /* Description.txt */,
+				D47256192454A25600DAD769 /* main.cpp */,
+				D47256162454A25600DAD769 /* Savings_Account.cpp */,
+				D47256182454A25600DAD769 /* Savings_Account.h */,
+				D472561D2454A30900DAD769 /* Checking_Account.cpp */,
+				D472561E2454A30900DAD769 /* Checking_Account.h */,
+				D466D73E2456FBB1005AC3E5 /* Trust_Account.cpp */,
+				D466D73F2456FBB1005AC3E5 /* Trust_Account.h */,
 			);
 			path = "project15-challenge";
 			sourceTree = "<group>";
@@ -119,7 +146,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D47256092454A21000DAD769 /* main.cpp in Sources */,
+				D472561F2454A30900DAD769 /* Checking_Account.cpp in Sources */,
+				D472561B2454A25600DAD769 /* Savings_Account.cpp in Sources */,
+				D47256142454A23E00DAD769 /* Account_Util.cpp in Sources */,
+				D472561C2454A25600DAD769 /* main.cpp in Sources */,
+				D466D7402456FBB1005AC3E5 /* Trust_Account.cpp in Sources */,
+				D47256132454A23E00DAD769 /* Account.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
